@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     opacity: 0;
-    background-color: silver;
+    background-color: #666666;
     will-change: opacity, visibility;
     transition: opacity .4s ease, visibility .4s ease;
     visibility: hidden;
@@ -25,8 +25,8 @@
 
 .modal__close{
     position: absolute;
-    top: 50px;
-    right: 40px;
+    top: 4%;
+    right: 4%;
 }
 
 .modal__container {

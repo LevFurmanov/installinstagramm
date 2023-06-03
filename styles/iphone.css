@@ -1,125 +1,120 @@
 .modal-iphone {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-    background-color: rgba(0, 0, 0, 0.55);
-    will-change: opacity, visibility;
-    transition: opacity 0.4s ease, visibility 0.4s ease;
-    visibility: hidden;
-    position: fixed;
-    inset: 0;
-    overflow: auto;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+  will-change: opacity, visibility;
+  transition: opacity 0.4s ease, visibility 0.4s ease;
+  visibility: hidden;
+  position: fixed;
+  inset: 0;
+  overflow: auto;
 }
 
 .modal-open-iphone {
-    visibility: visible;
-    opacity: 1;
+  visibility: visible;
+  opacity: 1;
 }
 
 .modal-close-iphone {
-    background: #000000;
-    border-radius: 58px;
-    font-weight: 600;
-    font-size: 20.686px;
-    line-height: 44px;
-    text-align: center;
-    color: #ffffff;
-    padding: 1px 18px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+  background: #000000;
+  border-radius: 58px;
+  font-weight: 600;
+  font-size: 20.686px;
+  line-height: 44px;
+  text-align: center;
+  color: #ffffff;
+  padding: 1px 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .modal-container {
+  width: 600px;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  transition: transform 0.6s ease;
+  border-radius: 24px;
+  flex-direction: column;
+  background-color: #f6f5fa;
+}
 
-    width: 600px;
+.iphone-modal-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-iphone-title {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 84px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.container__description {
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.input-iphone {
+  outline: none;
+  background-color: transparent;
+  width: 200px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 0.466074px solid #000000;
+  margin-bottom: 20px;
+  width: 80%;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+  .modal-close-iphone {
+    background: #000000;
+    border-radius: 40px;
+    font-weight: 600;
+    font-size: 15.686px;
+    line-height: 44px;
+    text-align: center;
+    color: #ffffff;
+    padding: 1px 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .modal-iphone-title{
+    font-size: 24px;
+  }
+
+  .modal-container {
+    width: 300px;
     height: auto;
     margin: 0 auto;
     position: relative;
     transition: transform 0.6s ease;
     border-radius: 24px;
     flex-direction: column;
-    background-color: #F6F5FA;
-}
+    background-color: #f6f5fa;
+  }
 
-.iphone-modal-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+  .modal-xiomi-iphone {
+    font-size: 30px;
+  }
 
-.modal-iphone-title {
-    font-weight: 400;
-    font-size: 60px;
-    line-height: 84px;
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 30px;
-    margin-top: 30px;
-}
-
-.container__description {
+  .container__description {
     margin: 0 auto;
-    max-width: 500px;
-}
+    max-width: 250px;
+  }
 
-.input-iphone {
-    outline: none;
-    background-color: transparent;
-    width: 200px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: 0.466074px solid #000000;
-    margin-bottom: 20px;
-    width: 80%;
-    margin-bottom: 50px;
-
-}
-
-@media (max-width:768px) {
-
-
-
-
-    .modal-close-iphone {
-        background: #000000;
-        border-radius: 40px;
-        font-weight: 600;
-        font-size: 15.686px;
-        line-height: 44px;
-        text-align: center;
-        color: #ffffff;
-        padding: 1px 12px;
-        margin-top: 10px;
-        margin-bottom: 20px;
-    }
-
-    .modal-container {
-
-        width: 300px;
-        height: auto;
-        margin: 0 auto;
-        position: relative;
-        transition: transform 0.6s ease;
-        border-radius: 24px;
-        flex-direction: column;
-        background-color: #F6F5FA;
-    }
-
-
-    .modal-xiomi-iphone {
-        font-size: 30px;
-    }
-
-    .container__description {
-        margin: 0 auto;
-        max-width: 250px;
-    }
-
-    .input-iphone {
-        margin-bottom: 40px;
-    }
+  .input-iphone {
+    margin-bottom: 40px;
+  }
 }

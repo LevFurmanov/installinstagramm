@@ -29,46 +29,7 @@
     gap: 15px;
 }
 
-/* .burger-button {
-    position: relative;
-    width: 50px;
-    height: 50px;
-    background-color: #666;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-} */
 
-/* .burger-line {
-    width: 80%;
-    height: 2px;
-    background-color: white;
-}
-
-.burger-button::before {
-    position: absolute;
-    content: "";
-    top: 25%;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 80%;
-    height: 2px;
-    background-color: white;
-}
-
-.burger-button::after {
-    position: absolute;
-    content: "";
-    bottom: 25%;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 80%;
-    height: 2px;
-    background-color: white;
-} */
 
 @media (max-width: 768px) {
     .header {
@@ -86,4 +47,22 @@
     .header-list li {
         display: list-item;
     }
+
 }
+
+@media (max-width: 425px) {
+
+    .header {
+        margin-bottom: 10px;
+    }
+
+    .header-list-mobile li img {
+        width: 150px;
+    }
+
+    .install-logo{
+        width: 110px;
+    }
+}
+
+

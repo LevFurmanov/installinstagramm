@@ -1,0 +1,58 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  scroll-behavior: smooth;
+  text-transform: lowercase;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  background-image: url(../images/Group\ 14.png);
+  background-position-x: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 45px;
+  max-width: 1880px;
+}
+
+@media (max-width: 3000px) {
+  .container {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 2300px;
+  }
+}
+
+@media (max-width: 768px){
+  body{
+    background-image: url('/images/Group\ 13.png');
+  }
+}

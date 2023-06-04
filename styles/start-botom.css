@@ -7,7 +7,7 @@
 .start__image {
   display: flex;
   gap: 27px;
-  padding-right: 382px;
+  padding-right: 21%;
 }
 
 .start__girl {
@@ -35,7 +35,7 @@
 @media (max-width: 1440px) {
   .start__image {
     gap: 23px;
-    padding-right: 100px;
+    padding-right: 5%;
   }
 
   .start__button {
@@ -89,4 +89,10 @@
   .start__button{
     padding: 7px 9px;
   }
+}
+@media (max-width: 445px) {
+  .start__bottom {
+    padding-top: 20px;
+  }
+
 }

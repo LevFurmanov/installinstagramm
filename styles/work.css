@@ -65,12 +65,13 @@
 
 
 .work__result {
-    text-align: center;
+    font-style: normal;
     font-weight: 500;
     font-size: 31px;
     line-height: 36px;
-    color: #0A0909;
-    margin-bottom: 15px;
+    text-align: center;
+    text-transform: lowercase;
+    color: rgba(10, 9, 9, 0.7);
 }
 
 .work__sms {}
@@ -246,7 +247,7 @@
 
         
     .work__title {
-        font-size: 80px;
+        font-size: 70px;
         line-height: 100px;
     }
 

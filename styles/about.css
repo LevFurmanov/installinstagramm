@@ -49,6 +49,7 @@
     border: 1px solid black;
     flex-grow: 1;
     background-color: #FFFFFF;
+    text-transform: lowercase;
 }
 .item:last-child {
     margin-bottom: 0;

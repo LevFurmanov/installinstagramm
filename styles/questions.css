@@ -122,6 +122,14 @@ footer{
     width: 120px;
     height: 180px;
   }
+  .questions-send-btn{
+    font-size: 20px;
+    padding: 11px 36px;
+  }
+
+  .section-title{
+    font-size: 60px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -136,6 +144,11 @@ footer{
 
   .input {
     width: 370px;
+    font-size: 20px;
+  }
+
+  .input::placeholder{
+    font-size: 20px;
   }
 
   .leave-app-title {
@@ -146,6 +159,10 @@ footer{
   .thirdRow{
     gap: 0;
   }
+
+  .section-title{
+    font-size: 55px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -155,11 +172,11 @@ footer{
   }
   .input {
     width: 85%;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .input::placeholder {
-    font-size: 16px;
+    font-size: 14px;
   }
   .img-slot{
     width: 62px;
@@ -200,6 +217,11 @@ footer{
 @media (max-width: 375px) {
   .input {
     width: 70%;
+    font-size: 12px;
+  }
+
+  .input::placeholder{
+    font-size: 12px;
   }
 
   .leave-app-title {

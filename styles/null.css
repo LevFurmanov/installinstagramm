@@ -5,6 +5,7 @@
   box-sizing: border-box;
   font-family: "Raleway", sans-serif;
   scroll-behavior: smooth;
+  text-transform: lowercase;
 }
 
 button {
@@ -38,7 +39,7 @@ svg {
 
 .container {
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 45px;
   max-width: 1880px;
 }
 
@@ -47,5 +48,11 @@ svg {
     margin: 0 auto;
     padding: 0 20px;
     max-width: 2300px;
+  }
+}
+
+@media (max-width: 768px){
+  body{
+    background-image: url('/images/Group\ 13.png');
   }
 }

@@ -28,7 +28,7 @@
   width: 350px;
   height: 650px;
   margin-bottom: 30px;
-  padding: 20px;
+  padding: 40px;
 }
 
 .phone-img>img{
@@ -43,7 +43,7 @@
   font-size: 100px;
   line-height: 81px;
   text-transform: uppercase;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .phones-btn {
@@ -51,7 +51,7 @@
   padding: 3px 17px;
   font-style: normal;
   font-weight: 500;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 35px;
   text-transform: lowercase;
   background: #000000;
@@ -59,31 +59,6 @@
   color: #ffffff;
 }
 
-.phones-btn2 {
-  width: 170px;
-  padding: 3px 17px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 35px;
-  text-transform: lowercase;
-  background: #000000;
-  border-radius: 9px;
-  color: #ffffff;
-}
-
-.phones-btn3 {
-  width: 170px;
-  padding: 3px 17px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 35px;
-  text-transform: lowercase;
-  background: #000000;
-  border-radius: 9px;
-  color: #ffffff;
-}
 
 .under-phone-wrapper {
   display: flex;
@@ -167,7 +142,6 @@
 }
 
 .modal-container {
-
   width: 600px;
   height: auto;
   margin: 0 auto;

@@ -3,6 +3,9 @@
 
 .section-title{
     font-family: 'Kharkiv Tone', sans-serif;
+    white-space: wrap;
+    text-transform: uppercase;
+    font-size: 100px;
 }
 
 .modal-title{

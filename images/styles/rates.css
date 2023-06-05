@@ -20,18 +20,17 @@
 .phones-row {
   display: flex;
   flex-direction: column;
+  padding-bottom: 30px;
 }
-
 .phone-img {
   /* border: 2px solid #313131; */
   border-radius: 20px;
   width: 350px;
   height: 650px;
-  margin-bottom: 30px;
-  padding: 40px;
+  padding: 30px;
 }
 
-.phone-img>img{
+.phone-img > img {
   object-fit: contain;
   width: 100%;
   height: 100%;
@@ -59,7 +58,6 @@
   color: #ffffff;
 }
 
-
 .under-phone-wrapper {
   display: flex;
   justify-content: center;
@@ -84,8 +82,8 @@
 }
 
 @media (max-width: 768px) {
-  .phone-img{
-    padding: 0;
+  .phone-img > img {
+    width: 80%;
   }
   .phones-col {
     justify-content: center;
@@ -105,6 +103,11 @@
     border: 1px solid #181918;
     border-radius: 15px;
     padding: 9px 12px;
+    margin-top: -40px;
+  }
+
+  .under-phone-wrapper-nokia {
+    margin-top: -10px;
   }
 }
 
@@ -120,7 +123,6 @@
   position: fixed;
   inset: 0;
   overflow: auto;
-
 }
 
 .modal-open-nokia {
@@ -149,7 +151,7 @@
   transition: transform 0.6s ease;
   border-radius: 24px;
   flex-direction: column;
-  background-color: #F6F5FA;
+  background-color: #f6f5fa;
 }
 
 .nokia-modal-form {
@@ -166,7 +168,6 @@
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 30px;
-
 }
 
 .container__description {
@@ -185,14 +186,9 @@
   margin-bottom: 20px;
   width: 80%;
   margin-bottom: 50px;
-
 }
 
-@media (max-width:768px) {
-
-
-
-
+@media (max-width: 768px) {
   .modal-close {
     background: #000000;
     border-radius: 40px;
@@ -207,7 +203,6 @@
   }
 
   .modal-container {
-
     width: 300px;
     height: auto;
     margin: 0 auto;
@@ -215,9 +210,8 @@
     transition: transform 0.6s ease;
     border-radius: 24px;
     flex-direction: column;
-    background-color: #F6F5FA;
+    background-color: #f6f5fa;
   }
-
 
   .modal-nokia-title {
     font-size: 24px;
@@ -232,8 +226,6 @@
     margin-bottom: 40px;
   }
 }
-
-
 
 .input-nokia::placeholder {
   color: #000000;

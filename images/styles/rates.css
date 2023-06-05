@@ -100,7 +100,7 @@
   }
 
   .under-phone-wrapper {
-    border: 1px solid #181918;
+    /* border: 1px solid #181918; */
     border-radius: 15px;
     padding: 9px 12px;
     margin-top: -40px;

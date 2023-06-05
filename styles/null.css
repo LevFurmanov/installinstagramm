@@ -39,7 +39,7 @@ svg {
 
 .container {
   margin: 0 auto;
-  padding: 0 45px;
+  padding: 0 30px;
   max-width: 1880px;
 }
 
@@ -54,5 +54,9 @@ svg {
 @media (max-width: 768px){
   body{
     background-image: url('/images/Group\ 13.png');
+  }
+
+  .container{
+    padding: 0 20px;
   }
 }

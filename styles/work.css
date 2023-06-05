@@ -3,15 +3,6 @@
 
 }
 
-.work__title {
-    text-align: center;
-    font-weight: 400;
-    font-size: 140px;
-    line-height: 141px;
-    margin-bottom: 50px;
-}
-
-
 
 .word__flex {
     display: flex;

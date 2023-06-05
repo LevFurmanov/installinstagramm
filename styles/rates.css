@@ -5,7 +5,7 @@
 .phones-col {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .phones-title {
@@ -102,9 +102,14 @@
   }
 
   .under-phone-wrapper {
-    border: 1px solid #181918;
+    /* border: 1px solid #181918; */
     border-radius: 15px;
     padding: 9px 12px;
+    margin-top: -50px;
+  }
+
+  .under-phone-wrapper-nokia{
+    margin-top: -10px;
   }
 }
 

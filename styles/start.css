@@ -1,6 +1,9 @@
 .start__top {
   position: relative;
 }
+.start{
+  padding: 0 40px;
+}
 
 .start__phone {
   width: 60vw;
@@ -189,15 +192,17 @@
     margin-top: 10px;
     padding-bottom: 0px;
   }
+
 }
 
 @media (max-width: 425px) {
   .start__text_span {
     position: absolute;
-    right: 54px;
-    top: 57px;
+    right: 40px;
+    top: 60px;
   }
-
+  
+  
   .header-list-mobile li img {
     width: 100px;
   }
@@ -206,15 +211,8 @@
 @media (max-width: 390px) {
   .start__text_span {
     position: absolute;
-    right: 30px;
+    right: 15px;
     top: 55px;
-  }
-}
-
-@media (max-width: 375px) {
-  .start__text_span {
-    right: 38px;
-    top: 51px;
   }
 }
 
@@ -234,3 +232,15 @@
     font-size: 10px;
   }
 }
+
+@media (max-width: 375px){
+  .start__text_span {
+    right: 10px;
+    top: 50px;
+    font-size: 10px;
+  }
+}
+
+
+
+

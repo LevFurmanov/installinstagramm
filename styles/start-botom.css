@@ -69,6 +69,10 @@
     display: flex;
     justify-content: center;
   }
+
+  .start__girl{
+    width: 175px;
+  }
 }
 
 @media (max-width: 450px) {
@@ -82,7 +86,7 @@
   }
 
   .start__girl {
-    width: 130px;
+    width: 125px;
     border-radius: 7px;
   }
 
@@ -95,4 +99,11 @@
     padding-top: 20px;
   }
 
+}
+
+
+@media (max-width: 390px){
+  .start__girl{
+    width: 100px;
+  }
 }

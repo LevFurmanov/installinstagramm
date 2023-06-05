@@ -100,7 +100,6 @@
   }
 
   .under-phone-wrapper {
-    /* border: 1px solid #181918; */
     border-radius: 15px;
     padding: 9px 12px;
     margin-top: -40px;
@@ -109,6 +108,47 @@
   .under-phone-wrapper-nokia {
     margin-top: -10px;
   }
+  .modal-close {
+    background: #000000;
+    border-radius: 40px;
+    font-weight: 600;
+    font-size: 15.686px;
+    line-height: 44px;
+    text-align: center;
+    color: #ffffff;
+    padding: 1px 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .modal-container {
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    transition: transform 0.6s ease;
+    border-radius: 24px;
+    flex-direction: column;
+    background-color: #f6f5fa;
+  }
+
+  .modal-nokia-title {
+    font-size: 24px;
+  }
+
+  .container__description {
+    margin: 0 auto;
+    max-width: 250px;
+  }
+
+  .input-nokia {
+    margin-bottom: 40px;
+  }
+}
+
+.input-nokia::placeholder {
+  color: #000000;
+  /* opacity: 0.7; */
 }
 
 .modal-nokia {
@@ -188,49 +228,7 @@
   margin-bottom: 50px;
 }
 
-@media (max-width: 768px) {
-  .modal-close {
-    background: #000000;
-    border-radius: 40px;
-    font-weight: 600;
-    font-size: 15.686px;
-    line-height: 44px;
-    text-align: center;
-    color: #ffffff;
-    padding: 1px 12px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-  }
 
-  .modal-container {
-    width: 300px;
-    height: auto;
-    margin: 0 auto;
-    position: relative;
-    transition: transform 0.6s ease;
-    border-radius: 24px;
-    flex-direction: column;
-    background-color: #f6f5fa;
-  }
-
-  .modal-nokia-title {
-    font-size: 24px;
-  }
-
-  .container__description {
-    margin: 0 auto;
-    max-width: 250px;
-  }
-
-  .input-nokia {
-    margin-bottom: 40px;
-  }
-}
-
-.input-nokia::placeholder {
-  color: #000000;
-  /* opacity: 0.7; */
-}
 
 @keyframes animatetop {
   from {

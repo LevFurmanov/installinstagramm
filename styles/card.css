@@ -119,9 +119,9 @@
     }
 
     .card__flex{
-        display: inline-block;
+        display:block;
+        width: 80%;
         margin: 0 auto;
-        width: 100%;
     }
     
    .card__skils{
@@ -141,19 +141,21 @@
     .card__skils_item {
         font-size: 15px;
         margin-bottom: 5px;
-        width: 232px;
+        width: 80%;
+        margin: 0 auto;
     }
+
+   
     
     .card__container{
-        padding: 0 200px;
+        padding: 0 00px;
     }
 }
 
 @media (max-width:550px) {
     .card__flex{
-        display: inline-block;
         margin: 0 auto;
-        
+        width: 100%;
     }
 
     .card__skils{
@@ -164,21 +166,25 @@
     }
 
     .card__container{
-        padding: 0 100px;
+        padding: 0 0px;
     }
+
+  
+
 
 }
 
 
 @media (max-width: 480px){
     .card__container{
-        padding: 0 80px;
+        padding: 0 30px;
     }
 }
 
 @media (max-width: 390px){
     .card__container{
-        padding: 0 50px;
+        padding: 0 20px;
+        margin: 0 auto;
     }
 }
 

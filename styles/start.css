@@ -7,7 +7,6 @@
 
 .start__phone {
   width: 60vw;
-  padding-left: 5%;
 }
 
 .start__phone > img {
@@ -41,9 +40,21 @@
   }
 }
 
+@media (max-width: 1132px) {
+  .start__text {
+    font-size: 35px;
+  }
+}
+
 @media (max-width: 1100px) {
   .start__texts {
     left: 45%;
+  }
+}
+
+@media (max-width: 976px) {
+  .start__text {
+    font-size: 30px;
   }
 }
 
@@ -72,9 +83,9 @@
 
   .start__text_span {
     position: absolute;
-    right: 170px;
-    top: 115px;
-    font-size: 14px;
+    right: 140px;
+    top: 100px;
+    font-size: 16px;
   }
 
   .start__text {
@@ -87,23 +98,8 @@
   }
 }
 
+
 @media (max-width: 726px) {
-  .start__text_span {
-    position: absolute;
-    right: 160px;
-    top: 110px;
-  }
-}
-
-@media (max-width: 700px) {
-  .start__text_span {
-    position: absolute;
-    right: 140px;
-    top: 100px;
-  }
-}
-
-@media (max-width: 660px) {
   .start__text_span {
     position: absolute;
     right: 130px;
@@ -111,7 +107,7 @@
   }
 }
 
-@media (max-width: 630px) {
+@media (max-width: 705px) {
   .start__text_span {
     position: absolute;
     right: 120px;
@@ -119,27 +115,24 @@
   }
 }
 
-@media (max-width: 610px) {
+@media (max-width: 681px) {
   .start__text_span {
     position: absolute;
     right: 110px;
-    top: 90px;
-  }
-
-  .header-list-mobile li img {
-    width: 150px;
-  }
-}
-
-@media (max-width: 585px) {
-  .start__text_span {
-    position: absolute;
-    right: 100px;
     top: 85px;
   }
 }
 
-@media (max-width: 560px) {
+@media (max-width: 657px) {
+  .start__text_span {
+    position: absolute;
+    right: 100px;
+    top: 80px;
+  }
+}
+
+
+@media (max-width: 657px) {
   .start__text_span {
     position: absolute;
     right: 90px;
@@ -147,100 +140,103 @@
   }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 610px) {
   .start__text_span {
     position: absolute;
     right: 80px;
     top: 75px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 570px) {
+  .start__text_span {
+    position: absolute;
+    right: 70px;
+    top: 70px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 550px) {
+  .start__text_span {
+    position: absolute;
+    right: 65px;
+    top: 70px;
+    font-size: 14px;
   }
 }
 
 @media (max-width: 520px) {
   .start__text_span {
     position: absolute;
-    right: 70px;
-    top: 70px;
-  }
-}
-
-@media (max-width: 490px) {
-  .start__text_span {
-    position: absolute;
     right: 60px;
-    top: 70px;
-  }
-}
-
-@media (max-width: 470px) {
-  .start__text_span {
-    position: absolute;
-    right: 50px;
     top: 65px;
+    font-size: 14px;
   }
 }
 
-@media (max-width: 445px) {
-  .start__text_span {
-    position: absolute;
-    right: 50px;
-    top: 65px;
-    font-size: 12px;
-  }
-
-  .start__text {
-    font-size: 16px;
-    margin-top: 10px;
-    padding-bottom: 0px;
-  }
-
-}
-
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   .start__text_span {
     position: absolute;
     right: 40px;
     top: 60px;
-  }
-  
-  
-  .header-list-mobile li img {
-    width: 100px;
+    font-size: 14px;
   }
 }
 
-@media (max-width: 390px) {
-  .start__text_span {
-    position: absolute;
-    right: 23px;
-    top: 55px;
-  }
-}
-
-@media (max-width: 360px) {
-  .start__text_span {
-    position: absolute;
-    right: 20px;
-    top: 50px;
-  }
-}
-
-@media (max-width: 360px) {
+@media (max-width: 455px) {
   .start__text_span {
     position: absolute;
     right: 30px;
-    top: 50px;
-    font-size: 10px;
+    top: 55px;
+    font-size: 14px;
   }
 }
 
-@media (max-width: 375px){
+@media (max-width: 435px) {
   .start__text_span {
-    right: 24px;
+    position: absolute;
+    right: 30px;
+    top: 55px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 400px) {
+  .start__text_span {
+    position: absolute;
+    right: 25px;
     top: 50px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 385px) {
+  .start__text_span {
+    position: absolute;
+    right: 20px;
+    top: 45px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 371px) {
+  .start__text_span {
+    position: absolute;
+    right: 20px;
+    top: 45px;
     font-size: 10px;
   }
 }
 
-
+@media (max-width: 335px) {
+  .start__text_span {
+    position: absolute;
+    right: 15px;
+    top: 40px;
+    font-size: 10px;
+  }
+}
 
 

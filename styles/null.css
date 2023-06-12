@@ -39,17 +39,16 @@ svg {
 
 .container {
   margin: 0 auto;
-  padding: 0 30px;
-  max-width: 1880px;
+  max-width: 1680px;
 }
 
-@media (max-width: 3000px) {
+/* @media (max-width: 3000px) {
   .container {
     margin: 0 auto;
     padding: 0 20px;
     max-width: 2300px;
   }
-}
+} */
 
 @media (max-width: 768px){
   body{

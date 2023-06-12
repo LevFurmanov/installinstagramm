@@ -11,7 +11,7 @@
 }
 
 .work__card {
-    width: 33%;
+    width: 30%;
     background: #FAFAFA;
     box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.23);
     border-radius: 18px;
@@ -123,7 +123,7 @@
     }
 
     .word__flex {
-        gap: 40px;
+        gap: 20px;
     }
 
     .work__title_tetx {
@@ -244,6 +244,8 @@
 
     .word__flex {
         display: block;
+        width: 90%;
+        margin: 0 auto;
     }
 
     .work__card {
@@ -326,6 +328,7 @@
     
     .word__flex {
         display: block;
+        width: 100%;
     }
     
     .work__card {
